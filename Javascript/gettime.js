@@ -7,7 +7,7 @@ function addZero(i){
 }
 
 
-/* function indexActiveTime(bool){
+function indexActiveTime(bool){
 
     var getIndexTime = new Date();
     var callActiveHour = getIndexTime.getHours() > 12 ? getIndexTime.getHours() - 12 : (getIndexTime.getHours() < 10 ? "0" + getIndexTime.getHours() : getIndexTime.getHours());
@@ -15,12 +15,11 @@ function addZero(i){
     var callActiveSeconds = getIndexTime.getSeconds() < 10 ? "0" + getIndexTime.getSeconds() : getIndexTime.getSeconds();
     
     var activeToday = callActiveHour + ":" + callActiveMinutes + ":" + callActiveSeconds;
+    setTimeout(indexActiveTime, 600);
 
-    while (true){
-        console.log(activeToday);
-    }
+    console.log(activeToday);
 
 }
 
 indexActiveTime();
-*/
+
