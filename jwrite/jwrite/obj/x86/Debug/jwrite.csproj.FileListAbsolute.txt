@@ -1,0 +1,6 @@
+/home/preston/Projects/jwrite/jwrite/bin/Debug/jwrite.exe
+/home/preston/Projects/jwrite/jwrite/bin/Debug/jwrite.pdb
+/home/preston/Projects/jwrite/jwrite/obj/x86/Debug/jwrite.csprojAssemblyReference.cache
+/home/preston/Projects/jwrite/jwrite/obj/x86/Debug/jwrite.csproj.CoreCompileInputs.cache
+/home/preston/Projects/jwrite/jwrite/obj/x86/Debug/jwrite.exe
+/home/preston/Projects/jwrite/jwrite/obj/x86/Debug/jwrite.pdb
