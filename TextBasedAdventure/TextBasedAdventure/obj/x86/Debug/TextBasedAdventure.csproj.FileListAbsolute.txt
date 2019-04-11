@@ -1,0 +1,6 @@
+/home/preston/Projects/TextBasedAdventure/TextBasedAdventure/bin/Debug/TextBasedAdventure.exe
+/home/preston/Projects/TextBasedAdventure/TextBasedAdventure/bin/Debug/TextBasedAdventure.pdb
+/home/preston/Projects/TextBasedAdventure/TextBasedAdventure/obj/x86/Debug/TextBasedAdventure.csprojAssemblyReference.cache
+/home/preston/Projects/TextBasedAdventure/TextBasedAdventure/obj/x86/Debug/TextBasedAdventure.csproj.CoreCompileInputs.cache
+/home/preston/Projects/TextBasedAdventure/TextBasedAdventure/obj/x86/Debug/TextBasedAdventure.exe
+/home/preston/Projects/TextBasedAdventure/TextBasedAdventure/obj/x86/Debug/TextBasedAdventure.pdb
