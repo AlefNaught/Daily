@@ -1,0 +1,6 @@
+/home/preston/Projects/Crate/Crate/bin/Debug/Crate.exe
+/home/preston/Projects/Crate/Crate/bin/Debug/Crate.pdb
+/home/preston/Projects/Crate/Crate/obj/x86/Debug/Crate.csprojAssemblyReference.cache
+/home/preston/Projects/Crate/Crate/obj/x86/Debug/Crate.csproj.CoreCompileInputs.cache
+/home/preston/Projects/Crate/Crate/obj/x86/Debug/Crate.exe
+/home/preston/Projects/Crate/Crate/obj/x86/Debug/Crate.pdb
