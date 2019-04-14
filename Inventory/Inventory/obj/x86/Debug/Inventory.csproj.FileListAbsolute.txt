@@ -1,0 +1,6 @@
+/home/preston/Projects/Inventory/Inventory/obj/x86/Debug/Inventory.csprojAssemblyReference.cache
+/home/preston/Projects/Inventory/Inventory/obj/x86/Debug/Inventory.csproj.CoreCompileInputs.cache
+/home/preston/Projects/Inventory/Inventory/bin/Debug/Inventory.exe
+/home/preston/Projects/Inventory/Inventory/bin/Debug/Inventory.pdb
+/home/preston/Projects/Inventory/Inventory/obj/x86/Debug/Inventory.exe
+/home/preston/Projects/Inventory/Inventory/obj/x86/Debug/Inventory.pdb
