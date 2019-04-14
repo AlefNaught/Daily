@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Inventory
 {
@@ -62,7 +63,53 @@ namespace Inventory
                 Console.WriteLine(item);
             }
 
+            Console.WriteLine("\n Continue for places to Explore.");
             Console.ReadLine();
+
+
+            //End of Items Held.
+
+            //Places to explore to test out Lists.
+
+            List<string> placesAroundMe = new List<string>
+            {
+                "Northern House",
+                "Eastern Apartments",
+                "Southern Bridge",
+                "Western Hospital"
+            };
+
+            placesAroundMe.ForEach(i => Console.WriteLine($"{i}\t"));
+
+            Console.WriteLine("\n Type a place to go...");
+
+            string pLine = Console.ReadLine();
+            switch (pLine)
+            {
+                case "Northern House":
+                case "North":
+                case "House":
+                    Console.WriteLine("You approach the Northern House...");
+                    break;
+                case "Eastern Apartments":
+                case "East":
+                case "Apartments":
+                    Console.WriteLine("You approach the Eastern Apartments");
+                    break;
+                case "Southern Bridge":
+                case "South":
+                case "Bridge":
+                    Console.WriteLine("You approach the Southern Bridge");
+                    break;
+                case "Western Hospital":
+                case "West":
+                case "Hospital":
+                    Console.WriteLine("You approach the Western Hospital");
+                    break;
+            }
+
+
+
         }
     }
 }
