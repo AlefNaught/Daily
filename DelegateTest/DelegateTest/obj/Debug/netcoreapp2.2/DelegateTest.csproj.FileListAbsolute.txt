@@ -1,0 +1,11 @@
+/home/preston/Projects/Rider/DelegateTest/DelegateTest/bin/Debug/netcoreapp2.2/DelegateTest.deps.json
+/home/preston/Projects/Rider/DelegateTest/DelegateTest/bin/Debug/netcoreapp2.2/DelegateTest.runtimeconfig.json
+/home/preston/Projects/Rider/DelegateTest/DelegateTest/bin/Debug/netcoreapp2.2/DelegateTest.runtimeconfig.dev.json
+/home/preston/Projects/Rider/DelegateTest/DelegateTest/bin/Debug/netcoreapp2.2/DelegateTest.dll
+/home/preston/Projects/Rider/DelegateTest/DelegateTest/bin/Debug/netcoreapp2.2/DelegateTest.pdb
+/home/preston/Projects/Rider/DelegateTest/DelegateTest/obj/Debug/netcoreapp2.2/DelegateTest.csprojAssemblyReference.cache
+/home/preston/Projects/Rider/DelegateTest/DelegateTest/obj/Debug/netcoreapp2.2/DelegateTest.csproj.CoreCompileInputs.cache
+/home/preston/Projects/Rider/DelegateTest/DelegateTest/obj/Debug/netcoreapp2.2/DelegateTest.AssemblyInfoInputs.cache
+/home/preston/Projects/Rider/DelegateTest/DelegateTest/obj/Debug/netcoreapp2.2/DelegateTest.AssemblyInfo.cs
+/home/preston/Projects/Rider/DelegateTest/DelegateTest/obj/Debug/netcoreapp2.2/DelegateTest.dll
+/home/preston/Projects/Rider/DelegateTest/DelegateTest/obj/Debug/netcoreapp2.2/DelegateTest.pdb
