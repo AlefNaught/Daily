@@ -4,6 +4,8 @@ namespace ConsoleApp
 {
     class Program
     {
+        delegate void delMyDelegate(object o);
+        
         static void Main(string[] args)
         {
             int a = Convert.ToInt32(Console.ReadLine());
@@ -38,12 +40,41 @@ namespace ConsoleApp
                 pullArray = Convert.ToInt32(Console.ReadLine());
                 if (pullArray == numArray.Length)
                 {
-                    Console.WriteLine("Correct");
+                    bool guessRight = true;
+                    Console.WriteLine("Correct.");
                 }
                 else
                 {
                     Console.WriteLine("Guess again");
                 }
+            }
+            
+        }
+
+        class DelegateTest //Figure out a better way to test this later.
+        {
+            private void MethodDel(object o)
+            {
+                Console.WriteLine("A delegate is a pointer to a method.");
+            }
+
+            private void MethodDel2(object o)
+            {
+                Console.WriteLine("We use it like this.");
+            }
+
+            private void MethodDelDo(delMyDelegate methodDelRun)
+            {
+                foreach (object o in theList)
+                {
+                    methodDelRun.Invoke(o);
+                }
+            }
+
+            public void ApplyMethodsToList()
+            {
+                MethodDelDo(MethodDel);
+                MethodDelDo(MethodDel2);
             }
             
         }
