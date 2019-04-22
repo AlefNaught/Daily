@@ -1,0 +1,11 @@
+/home/preston/Projects/Rider/Balance/Balance/bin/Debug/netcoreapp2.2/Balance.deps.json
+/home/preston/Projects/Rider/Balance/Balance/bin/Debug/netcoreapp2.2/Balance.runtimeconfig.json
+/home/preston/Projects/Rider/Balance/Balance/bin/Debug/netcoreapp2.2/Balance.runtimeconfig.dev.json
+/home/preston/Projects/Rider/Balance/Balance/bin/Debug/netcoreapp2.2/Balance.dll
+/home/preston/Projects/Rider/Balance/Balance/bin/Debug/netcoreapp2.2/Balance.pdb
+/home/preston/Projects/Rider/Balance/Balance/obj/Debug/netcoreapp2.2/Balance.csprojAssemblyReference.cache
+/home/preston/Projects/Rider/Balance/Balance/obj/Debug/netcoreapp2.2/Balance.csproj.CoreCompileInputs.cache
+/home/preston/Projects/Rider/Balance/Balance/obj/Debug/netcoreapp2.2/Balance.AssemblyInfoInputs.cache
+/home/preston/Projects/Rider/Balance/Balance/obj/Debug/netcoreapp2.2/Balance.AssemblyInfo.cs
+/home/preston/Projects/Rider/Balance/Balance/obj/Debug/netcoreapp2.2/Balance.dll
+/home/preston/Projects/Rider/Balance/Balance/obj/Debug/netcoreapp2.2/Balance.pdb
