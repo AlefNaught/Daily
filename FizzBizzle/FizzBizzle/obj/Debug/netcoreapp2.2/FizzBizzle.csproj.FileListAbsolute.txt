@@ -1,0 +1,11 @@
+/home/preston/Projects/Rider/FizzBizzle/FizzBizzle/bin/Debug/netcoreapp2.2/FizzBizzle.deps.json
+/home/preston/Projects/Rider/FizzBizzle/FizzBizzle/bin/Debug/netcoreapp2.2/FizzBizzle.runtimeconfig.json
+/home/preston/Projects/Rider/FizzBizzle/FizzBizzle/bin/Debug/netcoreapp2.2/FizzBizzle.runtimeconfig.dev.json
+/home/preston/Projects/Rider/FizzBizzle/FizzBizzle/bin/Debug/netcoreapp2.2/FizzBizzle.dll
+/home/preston/Projects/Rider/FizzBizzle/FizzBizzle/bin/Debug/netcoreapp2.2/FizzBizzle.pdb
+/home/preston/Projects/Rider/FizzBizzle/FizzBizzle/obj/Debug/netcoreapp2.2/FizzBizzle.csprojAssemblyReference.cache
+/home/preston/Projects/Rider/FizzBizzle/FizzBizzle/obj/Debug/netcoreapp2.2/FizzBizzle.csproj.CoreCompileInputs.cache
+/home/preston/Projects/Rider/FizzBizzle/FizzBizzle/obj/Debug/netcoreapp2.2/FizzBizzle.AssemblyInfoInputs.cache
+/home/preston/Projects/Rider/FizzBizzle/FizzBizzle/obj/Debug/netcoreapp2.2/FizzBizzle.AssemblyInfo.cs
+/home/preston/Projects/Rider/FizzBizzle/FizzBizzle/obj/Debug/netcoreapp2.2/FizzBizzle.dll
+/home/preston/Projects/Rider/FizzBizzle/FizzBizzle/obj/Debug/netcoreapp2.2/FizzBizzle.pdb
