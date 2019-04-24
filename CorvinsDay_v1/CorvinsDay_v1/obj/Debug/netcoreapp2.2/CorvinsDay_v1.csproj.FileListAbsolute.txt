@@ -1,0 +1,11 @@
+/home/preston/Projects/Rider/CorvinsDay_v1/CorvinsDay_v1/bin/Debug/netcoreapp2.2/CorvinsDay_v1.deps.json
+/home/preston/Projects/Rider/CorvinsDay_v1/CorvinsDay_v1/bin/Debug/netcoreapp2.2/CorvinsDay_v1.runtimeconfig.json
+/home/preston/Projects/Rider/CorvinsDay_v1/CorvinsDay_v1/bin/Debug/netcoreapp2.2/CorvinsDay_v1.runtimeconfig.dev.json
+/home/preston/Projects/Rider/CorvinsDay_v1/CorvinsDay_v1/bin/Debug/netcoreapp2.2/CorvinsDay_v1.dll
+/home/preston/Projects/Rider/CorvinsDay_v1/CorvinsDay_v1/bin/Debug/netcoreapp2.2/CorvinsDay_v1.pdb
+/home/preston/Projects/Rider/CorvinsDay_v1/CorvinsDay_v1/obj/Debug/netcoreapp2.2/CorvinsDay_v1.csprojAssemblyReference.cache
+/home/preston/Projects/Rider/CorvinsDay_v1/CorvinsDay_v1/obj/Debug/netcoreapp2.2/CorvinsDay_v1.csproj.CoreCompileInputs.cache
+/home/preston/Projects/Rider/CorvinsDay_v1/CorvinsDay_v1/obj/Debug/netcoreapp2.2/CorvinsDay_v1.AssemblyInfoInputs.cache
+/home/preston/Projects/Rider/CorvinsDay_v1/CorvinsDay_v1/obj/Debug/netcoreapp2.2/CorvinsDay_v1.AssemblyInfo.cs
+/home/preston/Projects/Rider/CorvinsDay_v1/CorvinsDay_v1/obj/Debug/netcoreapp2.2/CorvinsDay_v1.dll
+/home/preston/Projects/Rider/CorvinsDay_v1/CorvinsDay_v1/obj/Debug/netcoreapp2.2/CorvinsDay_v1.pdb
