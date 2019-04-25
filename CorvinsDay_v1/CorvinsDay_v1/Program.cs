@@ -7,21 +7,20 @@ namespace CorvinsDay_v1
 {
     class Program
     {
-
-        static void Dialog(string message)
+        public void Dialog(string message)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write(message);
             Console.ResetColor();
         }
 
-        static void Continue(string forward)
+        public void Continue(string forward)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write(forward);
             Console.ResetColor();
         }
-        static void Character()
+        public void Character()
         {
             Dialog("Welcome to Corvin's Day. Now, you'll need a name.\nPlease enter it: ");
             string charName = Console.ReadLine();
@@ -47,32 +46,39 @@ namespace CorvinsDay_v1
             }
             
         }
-
-        
-        /* Hack job while I figure lists out better... */
         public class Item
         {
-            public Item()
-            {
-                List<string> itemsHeld = new List<string>();
-                itemsHeld.Add("Rock");
-                itemsHeld.Add("Knife");
-                itemsHeld.Add("Shotgun");
-                itemsHeld.Add("Pen");
+            public string itemName { get; set; }
+            public int itemId { get; set; }
 
-                foreach (string i in itemsHeld)
+            public void itemsInGame()
+            {
+                List<Item> items = new List<Item>();
+                items.Add(new Item {itemId = 0, itemName = "Rock"});
+                items.Add(new Item {itemId = 1, itemName = "Hammer"});
+                items.Add(new Item {itemId = 2, itemName = "Sword"});
+                items.Add(new Item {itemId = 3, itemName = "Shotgun"});
+
+                foreach (var x in items)
                 {
-                    Console.WriteLine(i);
+                    Console.WriteLine(x);
                 }
-                Console.ReadLine();
+            }
+            public override string ToString()
+            {
+                return string.Join(", ", itemName);
             }
             
-            
         }
+        
         static void Main(string[] args)
         {
-            Character();
-            Item run = new Item(); //lmao
+            Item runList = new Item();
+            Program runProg = new Program();
+           
+            runProg.Character();
+            runList.itemsInGame();
+
         }
         
         
