@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
+using System.Security.Cryptography.X509Certificates;
 using System.Xml;
 using System.Xml.XPath;
 
@@ -13,28 +14,40 @@ namespace CorvinsDay_v1
         static public List<Item> items;
         static public void ItemsInGame()
         {
-            items.Add(new Item{ItemName = "Rock"});
-            items.Add(new Item{ItemName = "Bird"});
-            items.Add(new Item{ItemName = "Dildo"}); 
-            items.Add(new Item{ItemName = "Your mom"});
+            items.Add(new Item{ItemName = "Test0"});
+            items.Add(new Item{ItemName = "Test1"});
+            items.Add(new Item{ItemName = "Test2"}); 
+            items.Add(new Item{ItemName = "Test3"});
         }
     }
    public class Item
     {
         public static List<Item> items;
         public string ItemName { get; set; }
+        public bool IsHeld { get; set; }
+        public string take { get; set; }
+        public string discard { get; set; }
         public override string ToString()
         {
-            return string.Join(",", ItemName);
+            return string.Join(",", ItemName, IsHeld);
         }
     }
-    class Program
-    {
 
-        public void Inventory()
-        {
-            List<Item> onCharacter = new List<Item>();
-           
+   class Program
+   {
+       public List<Item> onCharacter = new List<Item>();
+
+       public void Inventory()
+       {
+            onCharacter.Add(new Item{IsHeld = false, ItemName = "Test0"});
+            onCharacter.Add(new Item{IsHeld = false, ItemName = "Test1"});
+            onCharacter.Add(new Item{IsHeld = false, ItemName = "Test2"});
+            onCharacter.Add(new Item{IsHeld = false, ItemName = "Test3"});
+            foreach (var x in onCharacter)
+            {
+                Console.WriteLine(x);     
+            }
+     
         }
         public void Dialog(string message)
         {
@@ -80,8 +93,7 @@ namespace CorvinsDay_v1
         {
             Program runProg = new Program();
             runProg.Character();
-
-
+            runProg.Inventory();
         }
         
         
