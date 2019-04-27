@@ -1,12 +1,41 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.ComponentModel.Design;
+using System.Xml;
+using System.Xml.XPath;
 
 
 namespace CorvinsDay_v1
 {
+  
+   public static class Items
+    {
+        static public List<Item> items;
+        static public void ItemsInGame()
+        {
+            items.Add(new Item{ItemName = "Rock"});
+            items.Add(new Item{ItemName = "Bird"});
+            items.Add(new Item{ItemName = "Dildo"}); 
+            items.Add(new Item{ItemName = "Your mom"});
+        }
+    }
+   public class Item
+    {
+        public static List<Item> items;
+        public string ItemName { get; set; }
+        public override string ToString()
+        {
+            return string.Join(",", ItemName);
+        }
+    }
     class Program
     {
+
+        public void Inventory()
+        {
+            List<Item> onCharacter = new List<Item>();
+           
+        }
         public void Dialog(string message)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -46,38 +75,12 @@ namespace CorvinsDay_v1
             }
             
         }
-        public class Item
-        {
-            public string itemName { get; set; }
-            public int itemId { get; set; }
-
-            public void itemsInGame()
-            {
-                List<Item> items = new List<Item>();
-                items.Add(new Item {itemId = 0, itemName = "Rock"});
-                items.Add(new Item {itemId = 1, itemName = "Hammer"});
-                items.Add(new Item {itemId = 2, itemName = "Sword"});
-                items.Add(new Item {itemId = 3, itemName = "Shotgun"});
-
-                foreach (var x in items)
-                {
-                    Console.WriteLine(x);
-                }
-            }
-            public override string ToString()
-            {
-                return string.Join(", ", itemName);
-            }
-            
-        }
         
         static void Main(string[] args)
         {
-            Item runList = new Item();
             Program runProg = new Program();
-           
             runProg.Character();
-            runList.itemsInGame();
+
 
         }
         
