@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
+using System.Linq.Expressions;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml;
 using System.Xml.XPath;
@@ -22,7 +23,6 @@ namespace CorvinsDay_v1
     }
    public class Item
     {
-        public static List<Item> items;
         public string ItemName { get; set; }
         public bool IsHeld { get; set; }
         public string take { get; set; }
@@ -35,7 +35,13 @@ namespace CorvinsDay_v1
 
    class Program
    {
-       public List<Item> onCharacter = new List<Item>();
+       public List<Item> onCharacter = new List<Item>(); 
+       
+       public void GiveItemTest()
+       {
+           string passThis = Console.ReadLine();
+           string[] passItem = new string[] { passThis };
+       }
 
        public void Inventory()
        {
@@ -43,12 +49,18 @@ namespace CorvinsDay_v1
             onCharacter.Add(new Item{IsHeld = false, ItemName = "Test1"});
             onCharacter.Add(new Item{IsHeld = false, ItemName = "Test2"});
             onCharacter.Add(new Item{IsHeld = false, ItemName = "Test3"});
-            foreach (var x in onCharacter)
-            {
-                Console.WriteLine(x);     
-            }
-     
         }
+
+       public void GiveItem()
+       {
+           string[] randoItem = {"Dick", "Penios", "Vagina", "Dildo"};
+            Random r = new Random();
+            int rnd = r.Next(randoItem.Length);
+            onCharacter.Add(new Item{IsHeld = false, ItemName = randoItem[rnd]});
+            Console.WriteLine(randoItem[rnd]);
+       }
+
+
         public void Dialog(string message)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -94,6 +106,7 @@ namespace CorvinsDay_v1
             Program runProg = new Program();
             runProg.Character();
             runProg.Inventory();
+            runProg.GiveItem();
         }
         
         
