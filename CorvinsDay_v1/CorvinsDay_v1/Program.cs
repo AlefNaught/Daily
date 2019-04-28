@@ -10,55 +10,53 @@ using System.Xml.XPath;
 namespace CorvinsDay_v1
 {
   
-   public static class Items
-    {
-        static public List<Item> items;
-        static public void ItemsInGame()
-        {
-            items.Add(new Item{ItemName = "Test0"});
-            items.Add(new Item{ItemName = "Test1"});
-            items.Add(new Item{ItemName = "Test2"}); 
-            items.Add(new Item{ItemName = "Test3"});
-        }
-    }
    public class Item
     {
         public string ItemName { get; set; }
         public bool IsHeld { get; set; }
-        public string take { get; set; }
-        public string discard { get; set; }
         public override string ToString()
         {
             return string.Join(",", ItemName, IsHeld);
         }
+
+        
+
     }
 
    class Program
    {
        public List<Item> onCharacter = new List<Item>(); 
        
-       public void GiveItemTest()
-       {
-           string passThis = Console.ReadLine();
-           string[] passItem = new string[] { passThis };
-       }
-
        public void Inventory()
        {
             onCharacter.Add(new Item{IsHeld = false, ItemName = "Test0"});
             onCharacter.Add(new Item{IsHeld = false, ItemName = "Test1"});
             onCharacter.Add(new Item{IsHeld = false, ItemName = "Test2"});
             onCharacter.Add(new Item{IsHeld = false, ItemName = "Test3"});
-        }
+ 
+       }
 
        public void GiveItem()
        {
-           string[] randoItem = {"Dick", "Penios", "Vagina", "Dildo"};
+           //Gets a random item.
+           string[] randoItem = {"Sword", "Hammer", "Shotgun", "Knife"};
             Random r = new Random();
             int rnd = r.Next(randoItem.Length);
             onCharacter.Add(new Item{IsHeld = false, ItemName = randoItem[rnd]});
             Console.WriteLine(randoItem[rnd]);
+            string takeI = "take";
+            if (Console.ReadLine() == takeI)
+            {
+                takeI.ToUpper();
+                onCharacter.Add(new Item {IsHeld = true, ItemName = randoItem[rnd]});
+            }
+            Console.WriteLine(randoItem[rnd]);
+            foreach (var x in onCharacter)
+            {
+                Console.WriteLine(x);
+            }
        }
+
 
 
         public void Dialog(string message)
